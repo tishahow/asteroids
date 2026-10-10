@@ -1,4 +1,4 @@
-import pygame, constants.py
+import pygame; from constants import SCREEN_WIDTH, SCREEN_HEIGHT
 
 def main():
     print(f"Starting Asteroids with pygame version: {pygame.version.ver}")
