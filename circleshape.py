@@ -1,4 +1,4 @@
-import pygame
+import pygame; 
 
 
 # Base class for game objects
@@ -18,7 +18,7 @@ class CircleShape(pygame.sprite.Sprite):
 
     def draw(self, screen: pygame.Surface) -> None:
         # must override
-        screen.pygame.draw.circle(white, self.triangle(), line_width)
+       pass
 
     def update(self, dt: float) -> None:
         # must override
